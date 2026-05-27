@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 // pages/About.jsx
-import Vasudha from "../assets/vasudha.jpg";
-import Indira from "../assets/indira.jpg";
-import Rua from "../assets/rua.avif";
-import happykid from "../assets/happykid.avif";
+import Vasudha from "../assets/Vasudha.jpg";
+import Indira from "../assets/Indira.jpg";
+import Rua from "../assets/Rua.avif";
+import happykid from "../assets/happyKid.avif";
 import toddler from "../assets/toddler.avif";
 const teamMembers = [
   {
