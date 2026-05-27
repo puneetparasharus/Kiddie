@@ -161,17 +161,51 @@ const ContactForm = () => {
             </div>
 
             {/* Submit */}
-            <div className="md:col-span-2 flex justify-end">
+          {/* Bottom Section */}
+<div className="md:col-span-2 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 pt-2">
 
-              <motion.button
-                type="submit"
-                whileHover={{ scale: 1.04 }}
-                whileTap={{ scale: 0.98 }}
-                className="bg-[#f2b24d] hover:bg-[#e3a33e] text-black font-semibold px-10 py-5 rounded-full transition duration-300 shadow-md"
-              >
-                SUBMIT
-              </motion.button>
-            </div>
+  {/* Checkbox */}
+  <div className="flex items-start gap-4 max-w-2xl">
+
+    <input
+      type="checkbox"
+      required
+      className="mt-1 w-6 h-6 accent-[#f2b24d]"
+    />
+
+    <p className="text-gray-700 leading-relaxed">
+      It's OK for Kiddie Academy of Snoqualmie to send me
+      text messages regarding this inquiry. Standard text
+      message rates apply and frequency varies. Reply HELP
+      for help, or STOP to opt out. View{" "}
+
+      <a
+        href="/terms-conditions"
+        className="underline hover:text-[#f2b24d] transition"
+      >
+        Terms
+      </a>{" "}
+      and{" "}
+
+      <a
+        href="/privacy-policy"
+        className="underline hover:text-[#f2b24d] transition"
+      >
+        Privacy
+      </a>.
+    </p>
+  </div>
+
+  {/* Submit Button */}
+  <motion.button
+    type="submit"
+    whileHover={{ scale: 1.04 }}
+    whileTap={{ scale: 0.98 }}
+    className="bg-[#f2b24d] hover:bg-[#e3a33e] text-black font-semibold px-10 py-5 rounded-full transition duration-300 shadow-md"
+  >
+    SUBMIT
+  </motion.button>
+</div>
 
           </form>
         </motion.div>
