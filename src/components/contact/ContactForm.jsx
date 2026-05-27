@@ -1,4 +1,5 @@
 // components/contact/ContactForm.jsx
+   import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
 import { useRef } from "react";
@@ -173,27 +174,28 @@ const ContactForm = () => {
       className="mt-1 w-6 h-6 accent-[#f2b24d]"
     />
 
-    <p className="text-gray-700 leading-relaxed">
-      It's OK for Kiddie Academy of Snoqualmie to send me
-      text messages regarding this inquiry. Standard text
-      message rates apply and frequency varies. Reply HELP
-      for help, or STOP to opt out. View{" "}
 
-      <a
-        href="/terms-conditions"
-        className="underline hover:text-[#f2b24d] transition"
-      >
-        Terms
-      </a>{" "}
-      and{" "}
+<p className="text-gray-700 leading-relaxed">
+  It's OK for Kiddie Academy of Snoqualmie to send me
+  text messages regarding this inquiry. Standard text
+  message rates apply and frequency varies. Reply HELP
+  for help, or STOP to opt out. View{" "}
 
-      <a
-        href="/privacy-policy"
-        className="underline hover:text-[#f2b24d] transition"
-      >
-        Privacy
-      </a>.
-    </p>
+  <Link
+    to="/terms-conditions"
+    className="underline hover:text-[#f2b24d] transition"
+  >
+    Terms
+  </Link>{" "}
+  and{" "}
+
+  <Link
+    to="/privacy-policy"
+    className="underline hover:text-[#f2b24d] transition"
+  >
+    Privacy
+  </Link>.
+</p>
   </div>
 
   {/* Submit Button */}

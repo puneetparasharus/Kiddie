@@ -1,4 +1,6 @@
 // components/layout/Footer.jsx
+          import { Link } from "react-router-dom";
+
 
 import {
   Mail,
@@ -180,19 +182,20 @@ const Footer = () => {
           {/* Bottom Links */}
           <div className="flex flex-wrap items-center justify-center gap-5 text-sm text-gray-500">
             
-            <a
-              href="/privacy-policy"
-              className="hover:text-black transition"
-            >
-              Privacy Policy
-            </a>
 
-            <a
-              href="/terms-conditions"
-              className="hover:text-black transition"
-            >
-              Terms & Conditions
-            </a>
+<Link
+  to="/privacy-policy"
+  className="hover:text-black transition"
+>
+  Privacy Policy
+</Link>
+
+<Link
+  to="/terms-conditions"
+  className="hover:text-black transition"
+>
+  Terms & Conditions
+</Link>
           </div>
         </div>
       </div>
