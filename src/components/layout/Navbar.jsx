@@ -39,10 +39,17 @@ const Navbar = () => {
         >
           <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-orange-300"></div>
 
-         <h1 className="text-xl sm:text-2xl font-bold leading-tight">
-  <span className="text-[#f2b24d]">KIDDIE</span>{" "}
-  <span className="text-[#1b1b1b]">ACADEMY</span>
+      <h1 className="text-xl sm:text-2xl font-bold leading-tight tracking-wide font-serif">
+  <span className="text-[#b22222]">KIDDIE</span>{" "}
+  <span className="inline-flex items-center mx-1">
+    🎓
+  </span>
+  <span className="text-[#4b4b4b]">ACADEMY</span>
 </h1>
+
+{/* <p className="text-[10px] sm:text-xs tracking-[3px] text-gray-700 uppercase ml-1">
+  Educational Child Care
+</p> */}
         </Link>
 
         {/* Desktop Links */}

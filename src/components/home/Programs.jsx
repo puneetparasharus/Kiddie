@@ -12,7 +12,7 @@ const programs = [
   {
     title: "Infant",
     age: "6 weeks to 12 months",
-    color: "bg-[#fde7d9]",
+    color: "bg-[#F5F1EC]",
     image:
       infant,
   },
@@ -20,21 +20,21 @@ const programs = [
   {
     title: "Toddler",
     age: "13 to 24 months",
-    color: "bg-[#e4f3e1]",
+    color: "bg-[#F5F1EC]",
     image:
 toodler,  },
 
   {
     title: "Early Preschool",
     age: "2-Year-Olds",
-    color: "bg-[#e4efff]",
+    color: "bg-[#F5F1EC]",
     image:
       earlypre,},
 
   {
     title: "Preschool",
     age: "3-Year-Olds",
-    color: "bg-[#fff2d9]",
+    color: "bg-[#F5F1EC]",
     image:
     happyKid
   },
@@ -42,7 +42,7 @@ toodler,  },
   {
     title: "Pre-Kindergarten",
     age: "4-Year-Olds",
-    color: "bg-[#f3e8ff]",
+    color: "bg-[#F5F1EC]",
     image:
     
       prekindergarten,},
@@ -50,7 +50,7 @@ toodler,  },
   {
     title: "Kindergarten",
     age: "5-Year-Olds",
-    color: "bg-[#dff7f5]",
+       color: "bg-[#F5F1EC]",
     image:
           kindergarten,
 

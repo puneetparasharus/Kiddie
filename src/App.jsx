@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import Programs from "./pages/Programs";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
 
 function App() {
   return (
@@ -39,6 +41,18 @@ function App() {
               {/* Contact Page */}
               <Route path="/contact" element={<Contact />} />
 
+              {/* Privacy Policy Page */}
+              <Route
+                path="/privacy-policy"
+                element={<PrivacyPolicy />}
+              />
+
+              {/* Terms & Conditions Page */}
+              <Route
+                path="/terms-conditions"
+                element={<TermsConditions />}
+              />
+
             </Routes>
           </div>
 
@@ -51,7 +65,6 @@ function App() {
 }
 
 export default App;
-
 // TODO:
 // - Add 404 page
 // - Add page transition animations
