@@ -105,9 +105,9 @@ return ( <section className="bg-[#f6f2ec] py-24 px-6 md:px-10 overflow-hidden">
               {card.description}
             </p>
 
-            <button className="bg-[#f2b24d] hover:bg-[#e3a33e] text-black font-semibold px-6 py-3 rounded-full transition duration-300">
+            {/* <button className="bg-[#f2b24d] hover:bg-[#e3a33e] text-black font-semibold px-6 py-3 rounded-full transition duration-300">
               {card.button}
-            </button>
+            </button> */}
           </div>
         </motion.div>
       ))}
@@ -152,9 +152,9 @@ return ( <section className="bg-[#f6f2ec] py-24 px-6 md:px-10 overflow-hidden">
           educational experience.
         </p>
 
-        <button className="bg-[#f2b24d] hover:bg-[#e3a33e] text-black font-semibold px-7 py-3 rounded-full transition duration-300">
+        {/* <button className="bg-[#f2b24d] hover:bg-[#e3a33e] text-black font-semibold px-7 py-3 rounded-full transition duration-300">
           MEET OUR TEAM
-        </button>
+        </button> */}
       </div>
     </motion.div>
 
@@ -185,9 +185,9 @@ return ( <section className="bg-[#f6f2ec] py-24 px-6 md:px-10 overflow-hidden">
           just a few ways we achieve this.
         </p>
 
-        <button className="bg-[#f2b24d] hover:bg-[#e3a33e] text-black font-semibold px-7 py-3 rounded-full transition duration-300">
+        {/* <button className="bg-[#f2b24d] hover:bg-[#e3a33e] text-black font-semibold px-7 py-3 rounded-full transition duration-300">
           LEARN MORE
-        </button>
+        </button> */}
       </div>
 
       {/* Image */}

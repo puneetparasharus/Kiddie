@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const ProgramsHero = () => {
 return ( <section className="relative overflow-hidden px-6 md:px-10 lg:px-16 py-24 lg:py-32 bg-[#f7f4ef]">
 
-```
+
   {/* Background Glow */}
   <div className="absolute top-0 left-0 w-72 h-72 bg-[#f6d28b] opacity-30 blur-3xl rounded-full"></div>
 
@@ -40,13 +40,13 @@ return ( <section className="relative overflow-hidden px-6 md:px-10 lg:px-16 py-
       {/* Buttons */}
       <div className="flex flex-wrap gap-4">
 
-        <button className="bg-[#0d5cc8] hover:bg-[#0849a3] text-white px-8 py-4 rounded-full font-semibold shadow-xl transition duration-300">
+        {/* <button className="bg-[#0d5cc8] hover:bg-[#0849a3] text-white px-8 py-4 rounded-full font-semibold shadow-xl transition duration-300">
           Explore Programs
-        </button>
+        </button> */}
 
-        <button className="border border-gray-300 hover:bg-white text-[#1c1c1c] px-8 py-4 rounded-full font-semibold transition duration-300">
+        {/* <button className="border border-gray-300 hover:bg-white text-[#1c1c1c] px-8 py-4 rounded-full font-semibold transition duration-300">
           Learn More
-        </button>
+        </button> */}
       </div>
 
       {/* Stats */}
