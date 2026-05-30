@@ -1,5 +1,6 @@
 // components/layout/Footer.jsx
           import { Link } from "react-router-dom";
+       
 
 
 import {
@@ -72,43 +73,44 @@ const Footer = () => {
             </div> */}
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold text-[#1b1b1b] mb-5">
-              Quick Links
-            </h3>
 
-            <div className="flex flex-col gap-4 text-gray-500 text-sm sm:text-base">
-              
-              <a
-                href="/"
-                className="hover:text-black transition"
-              >
-                Home
-              </a>
+<div>
+  <h3 className="text-lg font-semibold text-[#1b1b1b] mb-5">
+    Quick Links
+  </h3>
 
-              <a
-                href="/programs"
-                className="hover:text-black transition"
-              >
-                Programs
-              </a>
+  <div className="flex flex-col gap-4 text-gray-500 text-sm sm:text-base">
 
-              <a
-                href="/about"
-                className="hover:text-black transition"
-              >
-                About Us
-              </a>
+    <Link
+      to="/"
+      className="hover:text-black transition"
+    >
+      Home
+    </Link>
 
-              <a
-                href="/contact"
-                className="hover:text-black transition"
-              >
-                Contact
-              </a>
-            </div>
-          </div>
+    <Link
+      to="/programs"
+      className="hover:text-black transition"
+    >
+      Programs
+    </Link>
+
+    <Link
+      to="/about"
+      className="hover:text-black transition"
+    >
+      About Us
+    </Link>
+
+    <Link
+      to="/contact"
+      className="hover:text-black transition"
+    >
+      Contact
+    </Link>
+
+  </div>
+</div>
 
           {/* Programs */}
           <div>

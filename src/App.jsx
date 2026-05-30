@@ -1,6 +1,5 @@
-// App.jsx
-
 import { Routes, Route } from "react-router-dom";
+
 
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
@@ -11,52 +10,29 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
+import ScrollToTop from "./components/layout/ScrollToTop";
 
 function App() {
   return (
     <main className="min-h-screen bg-[#dce8d5] overflow-hidden">
-      
-      {/* Main Container */}
       <div className="w-full max-w-[1850px] mx-auto px-2 sm:px-4 md:px-6 xl:px-8 py-2 sm:py-4">
-        
-        {/* Rounded Main Layout */}
         <div className="bg-white rounded-[24px] sm:rounded-[36px] lg:rounded-[50px] shadow-[0_10px_60px_rgba(0,0,0,0.08)] overflow-hidden min-h-screen flex flex-col">
-          
-          {/* Global Navbar */}
+
           <Navbar />
 
-          {/* Page Content */}
           <div className="flex-1">
+            <ScrollToTop />
+
             <Routes>
-
-              {/* Home Page */}
               <Route path="/" element={<Home />} />
-
-              {/* Programs Page */}
               <Route path="/programs" element={<Programs />} />
-
-              {/* About Page */}
               <Route path="/about" element={<About />} />
-
-              {/* Contact Page */}
               <Route path="/contact" element={<Contact />} />
-
-              {/* Privacy Policy Page */}
-              <Route
-                path="/privacy-policy"
-                element={<PrivacyPolicy />}
-              />
-
-              {/* Terms & Conditions Page */}
-              <Route
-                path="/terms-conditions"
-                element={<TermsConditions />}
-              />
-
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-conditions" element={<TermsConditions />} />
             </Routes>
           </div>
 
-          {/* Global Footer */}
           <Footer />
         </div>
       </div>
@@ -65,6 +41,74 @@ function App() {
 }
 
 export default App;
+
+// // App.jsx
+
+// import { Routes, Route } from "react-router-dom";
+
+// import Navbar from "./components/layout/Navbar";
+// import Footer from "./components/layout/Footer";
+
+// import Home from "./pages/Home";
+// import Programs from "./pages/Programs";
+// import Contact from "./pages/Contact";
+// import About from "./pages/About";
+// import PrivacyPolicy from "./pages/PrivacyPolicy";
+// import TermsConditions from "./pages/TermsConditions";
+
+// function App() {
+//   return (
+//     <main className="min-h-screen bg-[#dce8d5] overflow-hidden">
+      
+//       {/* Main Container */}
+//       <div className="w-full max-w-[1850px] mx-auto px-2 sm:px-4 md:px-6 xl:px-8 py-2 sm:py-4">
+        
+//         {/* Rounded Main Layout */}
+//         <div className="bg-white rounded-[24px] sm:rounded-[36px] lg:rounded-[50px] shadow-[0_10px_60px_rgba(0,0,0,0.08)] overflow-hidden min-h-screen flex flex-col">
+          
+//           {/* Global Navbar */}
+//           <Navbar />
+
+//           {/* Page Content */}
+//           <div className="flex-1">
+//             <Routes>
+
+//               {/* Home Page */}
+//               <Route path="/" element={<Home />} />
+
+//               {/* Programs Page */}
+//               <Route path="/programs" element={<Programs />} />
+
+//               {/* About Page */}
+//               <Route path="/about" element={<About />} />
+
+//               {/* Contact Page */}
+//               <Route path="/contact" element={<Contact />} />
+
+//               {/* Privacy Policy Page */}
+//               <Route
+//                 path="/privacy-policy"
+//                 element={<PrivacyPolicy />}
+//               />
+
+//               {/* Terms & Conditions Page */}
+//               <Route
+//                 path="/terms-conditions"
+//                 element={<TermsConditions />}
+//               />
+
+//             </Routes>
+//           </div>
+
+//           {/* Global Footer */}
+//           <Footer />
+//         </div>
+//       </div>
+//     </main>
+//   );
+// }
+
+// export default App;
 // TODO:
 // - Add 404 page
 // - Add page transition animations
