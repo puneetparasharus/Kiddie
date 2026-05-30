@@ -32,14 +32,14 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto">
             
-            <button className="bg-black text-white px-7 py-4 rounded-full text-sm sm:text-base font-medium hover:scale-105 transition flex items-center justify-center gap-2">
+            {/* <button className="bg-black text-white px-7 py-4 rounded-full text-sm sm:text-base font-medium hover:scale-105 transition flex items-center justify-center gap-2">
               Get Started
               <ArrowRight size={18} />
-            </button>
+            </button> */}
 
-            <button className="border border-gray-300 px-7 py-4 rounded-full text-sm sm:text-base font-medium hover:bg-gray-100 transition">
+            {/* <button className="border border-gray-300 px-7 py-4 rounded-full text-sm sm:text-base font-medium hover:bg-gray-100 transition">
               Learn More
-            </button>
+            </button> */}
           </div>
 
           {/* Stats + Tags */}
