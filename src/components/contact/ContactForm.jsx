@@ -99,7 +99,7 @@ const ContactForm = () => {
                 type="text"
                 name="last_name"
                 placeholder="Last Name"
-                required
+                
                 className="w-full bg-white rounded-full px-6 py-5 outline-none border border-transparent focus:border-[#0d5cc8] transition"
               />
             </div>
@@ -173,7 +173,7 @@ const ContactForm = () => {
 
     <input
       type="checkbox"
-      required
+   
       className="mt-1 w-6 h-6 accent-[#f2b24d]"
     />
 
