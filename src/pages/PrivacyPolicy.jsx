@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
           </p>
 
           <p className="mt-3 text-sm text-gray-500">
-            Effective Date: May 7, 2026
+            Effective Date: May 7, 2024
           </p>
         </div>
 
