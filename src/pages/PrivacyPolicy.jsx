@@ -137,6 +137,12 @@ const PrivacyPolicy = () => {
                   To comply with safety, legal, and licensing
                   requirements.
                 </li>
+
+                <li>
+                 We may send one or more messages but no more than 5 messages per day depending on the weather conditions. 
+                  Message and data rates may apply.
+                </li>
+                
               </ul>
             </div>
           </div>
