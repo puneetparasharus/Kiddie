@@ -150,7 +150,7 @@ const PrivacyPolicy = () => {
             <div className="space-y-6 text-gray-700 leading-relaxed text-base sm:text-lg">
               
               <p>
-                Kiddie Academy does not sell your personal information.
+                Kiddie Academy does not sell or share your personal information.
               </p>
 
               <p>
