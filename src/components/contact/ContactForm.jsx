@@ -180,8 +180,7 @@ const ContactForm = () => {
 
 <p className="text-gray-700 leading-relaxed">
   It's OK for Kiddie Academy of Snoqualmie to send me
-  text messages regarding this inquiry. Standard text
-  message rates apply and frequency varies. Reply HELP
+  text messages regarding this inquiry. Message and data rates apply. Message frequency varies. Reply HELP
   for help, or STOP to opt out. View{" "}
 
   <Link
